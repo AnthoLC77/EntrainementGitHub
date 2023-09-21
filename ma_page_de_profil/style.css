@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+img {
+    width: 300px;
+    
+}
+
+li {
+    list-style: none;
+}

@@ -19,6 +19,14 @@ p {
     font-size: 20px;
 }
 
+li {
+    list-style-type: none;
+}
+
+
+/* PAGE POKEMON */
+
+
 #premier_para {
     text-decoration: underline;
 }
@@ -26,3 +34,70 @@ p {
 #deuxieme_para {
     margin-left: 5px;
 }
+
+
+
+
+
+/* PAGE PROFIL */ 
+
+main {
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+#profil {
+    width: 40%;
+}
+
+#photoProfil {
+    width: 230px;
+    border-radius: 10px;
+}
+
+#name {
+    margin-top: 10px;
+}
+
+.grey {
+    color: grey;
+    opacity: 0.6;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.competence {
+    margin-top: 45px;
+    
+}
+
+#blocRight {
+    width: 55%;
+    margin-left: 30px;
+}
+
+main nav {
+    margin-top: 50px;
+}
+
+main ul {
+    display: flex;
+}
+
+main li {
+    margin-right: 10px;
+    
+}
+
+main li a {
+    text-decoration: none;
+    color: black;
+}
+
+main li a:hover {
+    color: rgb(42, 224, 248);
+}
+
+
+
