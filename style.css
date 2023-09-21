@@ -36,6 +36,27 @@ li {
     margin-left: 5px;
 }
 
+nav {
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+    border: 2px green solid;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: white;
+    background-color: green;
+}
 
 /* PAGE PROFIL */ 
 
@@ -123,21 +144,6 @@ main li a:hover {
     color: white;
 }
 
-main li button {
-    padding: 10px 50px;
-    border-color: rgb(59, 163, 211);
-    border-radius: 5px;
-}
-
-main li button:hover {
-    cursor: pointer;
-    background-color: rgb(3, 111, 126);
-    border-radius: 5px;
-    color: white;
-    padding: 10px 50px;
-    box-shadow: none;
-    
-}
 
 main #infos, #additional_infos_texte {
     margin-top: 50px;
