@@ -62,7 +62,7 @@ main {
 
 .grey {
     color: grey;
-    opacity: 0.6;
+    opacity: 0.8;
     font-size: 15px;
     margin-top: 5px;
 }
@@ -92,11 +92,23 @@ main li {
 
 main li a {
     text-decoration: none;
-    color: black;
+    color: rgb(3, 111, 126);
 }
 
 main li a:hover {
-    color: rgb(42, 224, 248);
+    color: white;
+}
+
+main li button {
+    padding: 10px 50px;
+}
+
+main li button:hover {
+    cursor: pointer;
+    background-color: #4682B4;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 50px;
 }
 
 
