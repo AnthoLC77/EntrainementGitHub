@@ -9,7 +9,9 @@
 <body>
     <main>
         <div id="profil">
-            <img id="photoProfil" src="profil.img" alt="Photo de profil">
+            <div class="img">
+                <div class="msg_image">Upload</div>
+            </div>
             <div id="name">
                 <h2>Sophie doe</h2>
                 <p class="metier grey">Directrice Opération</p>
@@ -25,16 +27,33 @@
                 <nav>
                     <ul>
                         <li>
-                            <button onclick="window.location.href = '/index.html'">Accueil</button>
+                            <a href="/index.html">Accueil</a>
                         </li>
                         <li>
-                            <button onclick="window.location.href = 'profil.html'">Profil</button>
+                            <a href="profil.html">Profil</a>
                         </li>
                     </ul>
                 </nav>
             </div>
+
+            <div class="bottom_right">
+                <div class="contact_info">
+                    <p id="contact">Contact info</p>
+                    <p id="additional_infos">Additional info</p>
+                </div>
+                <div class="trait_gris"></div>
+                <div id="infos">
+                    <p class="infos_p">Employee ID : 2233445566</p>
+                    <p class="infos_p">Departement : Marketing</p>
+                    <p class="infos_p">Quote : the only thing constant is change'</p>
+                    <p class="infos_p">Status: Single</p>
+                </div>
+                <div id="additional_infos_texte">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quas reiciendis suscipit animi saepe quisquam facere consequatur tempore voluptatem! Omnis ullam facilis quos veritatis voluptas atque alias dolor? Magni, praesentium.
+                </div>
+            </div>
         </div>
-    </main>
-    
+    </main> 
+    <script type="module" src="/profil.js"></script>
 </body>
 </html>
